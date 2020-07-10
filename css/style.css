@@ -111,3 +111,16 @@ footer p{
     font-size: 16px;
     columns: #666666;
 }
+/*responsive design*/
+@media (max-width:767px){
+    .card_content {
+        margin-bottom: 15px;
+    }
+    .card_content img {
+        width: 450px;
+        height: 230px;
+    }
+    .card_text h5 {
+        font-size: 30px;
+    }
+}
