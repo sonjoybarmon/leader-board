@@ -113,6 +113,9 @@ footer p{
 }
 /*responsive design*/
 @media (max-width:767px){
+    .container{
+        width: 100%;
+    }
     .card_content {
         margin-bottom: 15px;
     }
